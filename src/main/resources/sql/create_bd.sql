@@ -1,0 +1,1 @@
+CREATE SCHEMA `cursos_bd` DEFAULT CHARACTER SET ascii ;
