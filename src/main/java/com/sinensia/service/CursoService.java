@@ -23,7 +23,6 @@ public interface CursoService {
 
 	Curso getById(int codCurso);
 
-	@Query("SELECT c FROM Curso c WHERE c.precio BETWEEN :minPrice AND :maxPrice")
-	List<Curso> findByPrecioBetween(int minPrice, int maxPrice);
+	List<Curso> findByPrecioBetween(int minPrecio, int maxPrecio);
 
 }
