@@ -71,7 +71,7 @@ Esta aplicación se ha hecho con la intención de ser ampliada a lo largo de las
 #### FindByPriceBetween Curso
 
 ```
-  PUT /curso/{minPrecio}/{maxPrecio}
+  GET /curso/{minPrecio}/{maxPrecio}
 ```
 
 | Parameter | Type     | Description                       |
